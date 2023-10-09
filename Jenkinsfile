@@ -35,7 +35,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Deploying.... project'
                 //error 'this is failed'
             }
         }
@@ -49,7 +49,7 @@ pipeline {
             }
 
         }}}
-        
+
 //         }
 //         stage('Params') {
 //             steps {
